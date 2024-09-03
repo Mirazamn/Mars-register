@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Space</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <img src="./imags/logo.png" alt="Mars" class="logo">
+
+        <div class="language">
+            <i class="fa-solid fa-globe"></i>
+
+            <select name="lang" id="lang" class="lang">
+                <option value="uzb">O'zb</option>
+                <option value="rus">Rus</option>
+                <option value="eng">Eng</option>
+            </select>
+
+        </div>
+    </header>
+
+    <main>
+        <form action="#">
+
+            <div class="form-header">
+
+                <img class="form-logo" src="./imags/logo.png" alt="Mars">
+
+                <a>Offerta imzolash<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+
+            </div>
+
+            <div class="inp-form">
+                <h1>Spacega xush kelibsiz</h1>
+
+                <div class="teach-student">
+                    <input type="radio" name="select" id="student" class="role">
+                    <label class="student_text" for="student">O'quvchiman</label>
+
+                    <input type="radio" name="select" id="teacher" class="role">
+                    <label class="teacher_text" for="teacher">Ota-onaman</label>
+                </div>
+
+                <div class="user-info">
+                    <input type="text" name="modme-id" id="modme-id" class="modme-id" placeholder="Modme Id or Phone number">
+
+                    <input type="password" name="password" id="password" class="password" placeholder="Password">
+                </div>
+
+                <a class="qr-code" href="#">QR code orqali kirish</a>
+
+                <button class="submit_btn">Kirish</button>
+
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>

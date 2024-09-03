@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* Header */
+header select {
+    color: #424242;
+    appearance: unset;
+    border: none;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+
+header i {
+    font-size: 36px;
+    font-weight: 700;
+    color: #F0400F;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 184px 50px 170px;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 2px solid #DEDBDB;
+}
+
+
+.language {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+} 
+
+
+/* Main */
+main {
+    background-color: #FAFAFA;
+    padding: 50px 0;
+}
+
+
+form {
+    padding: 65px 50px 40px 65px;
+    width: 550px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+
+.form-logo {
+    width: 150px;
+    height: 40px;
+}
+
+
+form a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F0400F;
+}
+
+
+.form-header a:hover {
+    text-decoration: underline;
+}
+
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.inp-form h1 {
+    color: #0E0D5D;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.role {
+    display: none;
+}
+
+
+.teach-student {
+    display: flex;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding: 8px 11px;
+    align-items: center;
+    gap: 42px;
+    width: 533px;
+    margin: 40px auto;
+}
+
+
+.student_text {
+    font-size: 28px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+
+
+.teacher_text {
+    font-size: 28px;
+    font-weight: 500;
+    color: #757575;
+}
+
+
+.user-info {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+
+
+.user-info .modme-id {
+    width: 433px;
+    padding: 20px 50px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    border: 1px solid #75757530;
+    font-size: 24px;
+    font-weight: 500;
+    color: #212121;
+}
+
+
+.modme-id::placeholder {
+    color: #757575B2;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.user-info .password {
+    width: 433px;
+    padding: 20px 50px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    border: 1px solid #75757530;
+    font-size: 24px;
+    font-weight: 500;
+    color: #212121;
+}
+
+
+.password::placeholder {
+    color: #757575B2;
+    font-size: 24px;
+    font-weight: 500;
+} 
+
+
+.qr-code {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000A3;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px 0 0 0;
+}
+
+
+.qr-code:hover {
+    color: #F0400F;
+    text-decoration: underline;
+}
+
+
+.submit_btn {
+    border: none;
+    background-color: #F69E86;
+    border-radius: 20px;
+    width: 202px;
+    height: 67px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 31px 0 0 350px;
+}
+
+
+.inp-form {
+    margin: 130px 0 0 0;
+}
